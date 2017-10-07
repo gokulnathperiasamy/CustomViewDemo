@@ -20,3 +20,7 @@
     mCustomView02.setTopicHeader("New Long Header...");
     mCustomView02.setLongDescription("Longest Description... New..");
 ```
+
+### Author
+
+- Gokul Nath KP
