@@ -1,6 +1,6 @@
 # Custom View Demo
 
-> A basic sample which shows how to use Android Custom View.
+> A basic sample which shows how to create Custom View in Android.
 
 #### Steps to create a Custom View in Android:
 
