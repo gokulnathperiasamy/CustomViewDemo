@@ -1,6 +1,8 @@
-# CustomViewDemo
+# Custom View Demo
 
-> Steps to create a Custom View in Android:
+> A basic sample which shows how to use Android Custom View.
+
+#### Steps to create a Custom View in Android:
 
 - Create [attrs.xml](https://github.com/gokulnathperiasamy/CustomViewDemo/blob/master/app/src/main/res/values/attrs.xml) under res\values.
 - Create [view_custom.xml](https://github.com/gokulnathperiasamy/CustomViewDemo/blob/master/app/src/main/res/layout/view_custom.xml) under layout.
