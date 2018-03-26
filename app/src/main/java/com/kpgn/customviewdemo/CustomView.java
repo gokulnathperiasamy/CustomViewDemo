@@ -21,13 +21,15 @@ public class CustomView extends LinearLayout {
         a.recycle();
 
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        inflater.inflate(R.layout.view_custom, this, true);
+        if (inflater != null) {
+            inflater.inflate(R.layout.view_custom, this, true);
 
-        mTopicHeader = ((TextView) findViewById(R.id.tv_topic_header));
-        setTopicHeader(titleText);
+            mTopicHeader = findViewById(R.id.tv_topic_header);
+            setTopicHeader(titleText);
 
-        mLongDescription = ((TextView) findViewById(R.id.tv_long_description));
-        setLongDescription(longDescription);
+            mLongDescription = findViewById(R.id.tv_long_description);
+            setLongDescription(longDescription);
+        }
     }
 
     public CustomView(Context context) {
